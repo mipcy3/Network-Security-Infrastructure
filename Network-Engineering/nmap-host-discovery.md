@@ -12,7 +12,7 @@ nmap -PR -sn <target_ip>
 nmap -PE -sn <target_ip>
 
 # TCP SYN Ping Scan (Transport Layer Discovery)
-nmap -PS22 -sn <target_ip>
+nmap -PS -sn <target_ip>
 ```
 
 ## 3. Practical Verification Proof
